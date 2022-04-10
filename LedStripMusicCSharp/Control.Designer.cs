@@ -1,7 +1,7 @@
 ﻿
 namespace LedStripMusicCSharp
 {
-    partial class Form1
+    partial class Control
     {
         /// <summary>
         /// Required designer variable.
@@ -144,7 +144,7 @@ namespace LedStripMusicCSharp
             this.stop_music_button.UseVisualStyleBackColor = true;
             this.stop_music_button.Click += new System.EventHandler(this.stop_music_button_Click);
             // 
-            // Form1
+            // Control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -159,7 +159,7 @@ namespace LedStripMusicCSharp
             this.Controls.Add(this.connection_status_label);
             this.Controls.Add(this.connect_button);
             this.Controls.Add(this.disconnect_button);
-            this.Name = "Form1";
+            this.Name = "Control";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

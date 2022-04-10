@@ -14,11 +14,11 @@ using System.Threading;
 
 namespace LedStripMusicCSharp
 {
-    public partial class Form1 : Form
+    public partial class Control : Form
     {
         SerialPort sp = new SerialPort();
 
-        public Form1()
+        public Control()
         {
             InitializeComponent();
 
