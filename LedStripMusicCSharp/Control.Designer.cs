@@ -160,7 +160,7 @@ namespace LedStripMusicCSharp
             this.Controls.Add(this.connect_button);
             this.Controls.Add(this.disconnect_button);
             this.Name = "Control";
-            this.Text = "Form1";
+            this.Text = "Control";
             this.ResumeLayout(false);
             this.PerformLayout();
 
